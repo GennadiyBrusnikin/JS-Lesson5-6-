@@ -25,7 +25,7 @@ function increment() {
 		setTimeout(function(){
 			time++;
 			var mins = Math.floor(time/10/60);
-			var secs = Math.floor(time/10 % 60);
+			var secs = Math.floor(time/10%60);
 			var hours = Math.floor(time/10/60/60);
 			var tenths = time % 10;
 
